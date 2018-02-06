@@ -13,11 +13,11 @@
     <main role="main" class="site--main">
         <div runat="server" id="Banner" class="pane pane__banner"></div>
         <div class="container">
-            <nav class="breadcrumb"><small><dnn:Breadcrumb runat="server" id="dnnBreadcrumb" /></small></nav>
+            <nav class="breadcrumb"><small><dnn:Breadcrumb runat="server" id="dnnBreadcrumb" Separator="|"  /></small></nav>
             <div class="row">
                 <div class="col-md-3">
-                    <nav>
-                        <h3>Quick Links</h3>
+                    <nav class="interior--nav">
+                        <h2>Quick Links</h2>
                         <dnn:MENU runat="server" MenuStyle="menus/RazorNav" NodeSelector="RootChildren" />
                     </nav>
                     <div runat="server" id="Sidebar" class="pane pane__sidebar"></div>

@@ -1,0 +1,53 @@
+/*----- Interior & Breadcrumb Navigation -----*/
+
+/* Breadcrumb */
+.breadcrumb {
+	background-color: transparent;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 3em;
+}
+.breadcrumb span span {
+	padding: 0 0.25em;
+}
+
+/* Interior Nav */
+.interior--nav {
+	background-color: rgba(204,177,154,0.5);
+	padding: 2em;
+	font-size: 0.813em;
+	margin-bottom: 3em;
+	text-align: center;
+	color:;
+}
+
+	.interior--nav h2 {
+		font-size: 1.375em;
+		margin-bottom: 1em;
+		color: rgb(33, 37, 41);
+	}
+
+	.interior--nav ul {
+		margin: 0;
+		list-style: none;
+
+	}
+		.interior--nav li {
+			border-bottom: 1px solid rgba(204,177,154,0.9);
+		}
+
+		.interior--nav li:first-of-type {
+			border-top: 1px solid rgba(204,177,154,0.9);
+		}
+
+		nav.interior--nav a {
+			padding: 0.75em 1em;
+			display: block;
+			color: #7F5A3A !important;
+		}
+		nav.interior--nav a:hover {
+			color: #fff !important;
+			background-color: rgba(127,90,58,0.75);
+			text-decoration: none;
+			transition: background-color 1s linear;
+		}
