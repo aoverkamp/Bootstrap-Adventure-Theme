@@ -20,6 +20,7 @@ ul.navbar-nav {
 /*-- Navbar (Quick)--*/
 .header--quick-navbar {
 	padding-bottom: 1em;
+	text-align: center;
 }
     .header--quick-navbar .bg-light {
     	background-color: transparent !important;
@@ -29,6 +30,10 @@ ul.navbar-nav {
     a.dropdown-toggle {
     	padding: .5rem;
     	display: block;
+    }
+
+    .navbar-toggler {
+    	margin: 0 auto;
     }
 
 
