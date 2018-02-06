@@ -17,63 +17,6 @@ ul.navbar-nav {
 	letter-spacing: 1px;
 }
 
-/*-- Top Navbar --*/
-.header--top-navbar {}
-	.header--top-navbar .navbar-dark .navbar-brand {
-		color: #CAAF98;
-	}
-
-	.header--top-navbar button:hover,
-	.header--top-navbar button:focus,
-	.header--top-navbar button:active {
-		background-color: #2C4C59;
-		border: none;
-	}
-
-	.header--top-navbar nav a,
-	.header--top-navbar nav .menu-link {
-		color: #CAAF98 !important;
-		/* override bootstrap selector hell */
-	}
-
-	.header--top-navbar .bg-dark {
-		background-color: #27444F !important;
-		/* important used to override bootstrap important on .bg-dark */
-		background-image: url(../images/cartographer-blue.png);
-		background-repeat: repeat;
-		background-position: center;
-	}
-		.navbar-dark .navbar-brand {
-			color: #196180;
-		}
-
-		.header--top-navbar .collapse {
-			justify-content: space-between;
-			align-items: flex-start;
-		}
-
-		.header--top-navbar .navbar-collapse.show {
-			background-image: url(../images/BootstrapAdventure--Fox2.png);
-			background-repeat: no-repeat;
-			background-position: left 1% bottom 35%;
-			padding: 3em;
-		}
-
-.header--top-navbar .nav--menu {
-	list-style: none;
-	margin: 0;
-	display: flex;
-	justify-content: space-between;
-}
-	.header--top-navbar .nav--menu li {
-	    padding-right: .5rem;
-	    padding-left: .5rem;
-	}
-
-	.header--top-navbar .menu__submenu {
-		flex-direction: column;
-	}
-
 /*-- Navbar (Quick)--*/
 .header--quick-navbar {
 	padding-bottom: 1em;
@@ -103,20 +46,11 @@ ul.navbar-nav {
 /* Mid-Size / Average Tablet */
 @media (min-width: 700px) {
 
-
-	.header--top-navbar ul.navbar-nav {
-		padding-left: 0;
-		margin-bottom: 0;
-		display: flex;
-		flex-direction: row;
-	}
 }
 
 /* Large / Desktop */
 @media (min-width: 900px) {
-	.header--top-navbar .collapse.show {
-		display: flex;
-	}
+
 }
 
 /* 1x Large / Widescreen Desktop */

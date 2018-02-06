@@ -5,15 +5,27 @@
 	background-color: #fff;
 }
 
-/*-- Logo --*/
-.header--brand {
-	text-align: center;
-	padding: 1em 0 2em;
+.header--top-navbar {
+	padding: 0.5em 2em;
+	background-color: #27444F;
+	background-image: url(../images/cartographer-blue.png);
+	background-repeat: repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 }
-	.header--brand a {
-		display: block;
+
+	.header--top-navbar .navbar-brand {
+		color: #CAAF98;
 	}
-		.header--brand img {}
+
+	.header--top-navbar nav a,
+	.header--top-navbar nav .menu-link {
+		color: #CAAF98 !important;
+		/* override bootstrap selector hell */
+	}
 
 /*-- Search --*/
 .header--search {}
@@ -113,6 +125,18 @@
 				background-image: url(../icons/ic_person_black_24px.svg);
 			}
 
+/*-- Logo --*/
+.header--brand {
+	text-align: center;
+	padding: 1em 0 2em;
+}
+	.header--brand a {
+		display: block;
+	}
+		.header--brand img {}
+
+
+
 
 /*----- Media Queries -----*/
 
@@ -126,6 +150,10 @@
 
 /* Mid-Size / Average Tablet */
 @media (min-width: 700px) {
+	.header--top-navbar,
+	.navbar--utility-items {
+		flex-direction: row;
+	}
 }
 
 /* Large / Desktop */
@@ -140,7 +168,7 @@
 	.navbar--utility-items {
 		flex-direction: row;
 		justify-content: space-between;
-		width: 50%;
+		width: 40%;
 	}
 		.user-links {
 			border-left: 1px solid #196180;

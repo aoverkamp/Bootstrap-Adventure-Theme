@@ -8,26 +8,18 @@
 
 <header class="site--header">
     <div class="header--top-navbar">
-        <nav class="navbar navbar-dark bg-dark">
-            <div class="navbar-brand">Welcome to Adventure!</div>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse" id="navbarsExample01" style="">
-                <dnn:MENU runat="server" MenuStyle="menus/RazorNav" />
-                <div class="navbar--utility-items">
-                    <div class="user-links">
-                        <ul>
-                            <li class="user-links--login"><dnn:Login runat="server" id="dnnLogin" /></li>
-                            <li class="user-links--user"><dnn:User runat="server" id="dnnUser" /></li>
-                        </ul>
-                    </div>
-                    <div class="form-inline my-2 my-md-0 header--search header--search__top">
-                        <dnn:Search runat="server" id="dnnSearch" ShowSite="false" ShowWeb="false" SiteText="Search" UseWebForSite="false" UseDropDownList="false" />
-                    </div>
-                </div>
+        <div class="navbar-brand">Welcome to Adventure!</div>
+        <div class="navbar--utility-items">
+            <div class="user-links">
+                <ul>
+                    <li class="user-links--login"><dnn:Login runat="server" id="dnnLogin" /></li>
+                    <li class="user-links--user"><dnn:User runat="server" id="dnnUser" /></li>
+                </ul>
             </div>
-        </nav>
+            <div class="form-inline my-2 my-md-0 header--search header--search__top">
+                <dnn:Search runat="server" id="dnnSearch" ShowSite="false" ShowWeb="false" SiteText="Search" UseWebForSite="false" UseDropDownList="false" />
+            </div>
+        </div>
     </div>
     <div class="header--brand">
         <div class="container">
