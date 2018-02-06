@@ -1,0 +1,32 @@
+<ul class="navbar-nav mr-auto">
+    [*>NODE-TOP]
+</ul>
+
+[>NODE-TOP]
+    <li class="nav-item [?NODE]dropdown [/?][?SELECTED]active[/?]">
+    [?ENABLED]
+        <a href="[=URL]" class="nav-link">[=TEXT] [?NODE]<span class="caret"></span>[/?]</a>
+    [?ELSE]
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">[=TEXT] [?NODE]<span class="caret"></span>[/?]</a>
+    [/?]
+    [?NODE]
+        <ul class="dropdown-menu subLevel">
+        [*>NODE]
+        </ul>
+    [/?]
+    </li>
+[/>]
+[>NODE]
+    <li class="nav-item [?NODE]dropdown [/?][?SELECTED]active[/?]">
+    [?ENABLED]
+        <a href="[=URL]" class="nav-link">[=TEXT] [?NODE]<span class="caret"></span>[/?]</a>
+    [?ELSE]
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">[=TEXT] [?NODE]<span class="caret"></span>[/?]</a>
+    [/?]
+    [?NODE]
+        <ul class="dropdown-menu subLevel sublevel2">
+        [*>NODE]
+        </ul>
+    [/?]
+    </li>
+[/>]

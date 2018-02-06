@@ -1,0 +1,53 @@
+/*----- Social Media -----*/
+.social-media {}
+    .social-media ul {
+    	margin: 0;
+    	list-style: none;
+    }
+        .social-media li {
+        	padding: 0 0.25rem;
+        }
+            .social-media a {
+            	display: block;
+            	padding: 0.5rem;
+            }
+            	.social-media svg.icon__svg {
+            		display: block;
+            		height: 2rem;
+            		width: 2rem;
+            		fill: #CAAF98;
+            	}
+
+            	.social-media svg.icon__facebook {}
+            	.social-media svg.icon__twitter {}
+            	.social-media svg.icon__linkedin {}
+            	.social-media svg.icon__github {}
+
+
+.site--footer .social-media {
+	margin-top: 2em;
+	border-top: solid 1px #253F4A;
+	padding-top: 1em;
+}
+
+.site--footer .social-media ul {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+	.site--footer .social-media a {
+		opacity: 1;
+		transition-duration: 2s;
+	}
+
+	.site--footer .social-media a:hover {
+		opacity: 10.5;
+	}
+
+		.social-media svg.icon__svg {
+			fill: #253F4A;
+		}
+
+
+
+

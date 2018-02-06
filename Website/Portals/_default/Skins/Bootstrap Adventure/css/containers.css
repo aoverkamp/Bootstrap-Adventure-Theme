@@ -1,0 +1,64 @@
+/*----- Containers -----*/
+.module-container {
+	margin-bottom: 5em;
+}
+	.module-container--heading {
+		overflow: hidden;
+	}
+	.module-container--heading .Head {
+		position: relative;
+		display: inline-block;
+		letter-spacing: 2px;
+		padding: 0 30px 0 0;
+		line-height: 1.2;
+	}
+	.module-container--heading .Head::after {
+		background: #161616;
+	    content: "";
+	    display: block;
+	    height: 5px;
+	    position: absolute;
+	    top: 50%;
+	    margin-top: -3px;
+	    width: 1920px;
+	    left: 100%;
+	}
+
+	.module-container--body {}
+
+/*-- Container Varieties --*/
+
+/* No Title Containers (doesn't show Module Container Title) */
+.module-container__container-fluid {}
+
+.module-container__container {}
+
+.module-container__no-title {}
+
+/* Title Containers (shows Module Container as a Heading) */
+.module-container__h1-title {}
+
+.module-container__h2-title {}
+	.module-container__h2-title .Head {
+		text-transform: uppercase;
+	}
+
+.module-container__h3-title {}
+
+/* Callout */
+.module-container__callout {
+	background-color: #fff;
+	background-image: linear-gradient(#CAAF98, rgba(202,175,152,0.35));
+	padding: 2em;
+	border-left: 1px solid #CAAF98;
+	border-bottom: 1px solid #CAAF98;
+}
+
+.module-container__callout-title {}
+	.module-container__callout-title .Head {
+		text-transform: uppercase;
+	}
+
+
+
+

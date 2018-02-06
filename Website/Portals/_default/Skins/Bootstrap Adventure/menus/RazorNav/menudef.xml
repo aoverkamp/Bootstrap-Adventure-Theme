@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+    <template>NavTemplate.cshtml</template>
+    <defaultTemplateArguments>
+        <templateArgument name="MenuClass" value="menu" />
+        <templateArgument name="ItemClass" value="menu-item" />
+        <templateArgument name="LinkClass" value="menu-link" />
+    </defaultTemplateArguments>
+</manifest>

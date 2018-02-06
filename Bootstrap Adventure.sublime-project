@@ -1,0 +1,13 @@
+{
+    "folders":
+    [
+        {
+            "name": "Skin",
+            "path": "Website\\Portals\\_default\\Skins\\Bootstrap Adventure"
+        },
+        {
+            "name": "Containers",
+            "path": "Website\\Portals\\_default\\Containers\\Bootstrap Adventure"
+        }
+    ]
+}

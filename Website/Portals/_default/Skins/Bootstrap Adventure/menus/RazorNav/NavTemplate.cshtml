@@ -1,0 +1,86 @@
+@using DotNetNuke.Web.DDRMenu;
+@using System.Dynamic;
+@inherits DotNetNuke.Web.Razor.DotNetNukeWebPage<dynamic>
+
+@functions {
+    IHtmlString MenuClasses(MenuNode page) {
+        var classes = new[] {
+            "nav--" + Model.MenuClass,
+            Model.MenuClass,
+            Model.MenuClass + "__submenu",
+            page.Selected ? Model.MenuClass + "__active" : null,
+            page.Breadcrumb ? Model.MenuClass + "__breadcrumb" : null,
+            Model.MenuClass + "__level-" + page.Depth,
+        }.Where(c => c != null)
+        .ToArray();
+
+        if (!classes.Any()) {
+            return null;
+        }
+
+        return new HtmlString(string.Join(" ", classes));
+    }
+    IHtmlString ItemClasses(MenuNode page) {
+        var classes = new[] {
+            "nav--" + Model.ItemClass,
+            Model.ItemClass,
+            page.Selected ? Model.ItemClass + "__active" : null,
+            page.Breadcrumb ? Model.ItemClass + "__breadcrumb" : null,
+            page.HasChildren() ? Model.ItemClass + "__parent" : null,
+            !page.HasChildren() ? Model.ItemClass + "__no-children" : null,
+            Model.ItemClass + "__level-" + page.Depth,
+        }.Where(c => c != null)
+        .ToArray();
+
+        if (!classes.Any()) {
+            return null;
+        }
+
+        return new HtmlString(string.Join(" ", classes));
+    }
+    IHtmlString LinkClasses(MenuNode page) {
+        var classes = new[] {
+            "nav--" + Model.LinkClass,
+            Model.LinkClass,
+            page.Selected ? Model.LinkClass + "__active" : null,
+            page.Breadcrumb ? Model.LinkClass + "__breadcrumb" : null,
+            !page.Enabled ? Model.LinkClass + "__disabled" : null,
+        }.Where(c => c != null)
+        .ToArray();
+
+        if (!classes.Any()) {
+            return null;
+        }
+
+        return new HtmlString(string.Join(" ", classes));
+    }
+}
+
+@helper RenderPages(IEnumerable<MenuNode> pages) {
+    if (!pages.Any()) {
+        return;
+    }
+
+    foreach (var page in pages) {
+        <li class="@ItemClasses(page)">
+            @if (page.Enabled) {
+                <a class="@LinkClasses(page)" href="@page.Url" target="@page.Target" aria-haspopup="@(page.HasChildren() ? "true" : null)">
+                    <span>@page.Text</span>
+                </a>
+            } else {
+                <span class="@LinkClasses(page)">@page.Text</span>
+            }
+
+            @if (page.HasChildren()) {
+                <ul class="@MenuClasses(page)" aria-label="submenu" aria-hidden="true">
+                    @RenderPages(page.Children)
+                </ul>
+            }
+        </li>
+    }
+}
+
+@* This is the where the nav is generated *@
+<ul class="nav--@(Model.MenuClass) @(Model.MenuClass) @(Model.MenuClass)__main" aria-label="menu">
+    @RenderPages(Model.Source.root.Children)
+</ul>

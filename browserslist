@@ -1,0 +1,11 @@
+# Autoprefixer list of supported browsers
+# see https://github.com/ai/browserslist#queries for documentation
+
+IE >= 8
+Firefox ESR # as of June 2017, this is Firefox 52, see https://www.mozilla.org/en-US/firefox/organizations/
+> 0.1%
+
+################################################################
+#### Consider your audience, adjust country code, if needed ####
+################################################################
+> 0.1% in US

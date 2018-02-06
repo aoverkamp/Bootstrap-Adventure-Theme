@@ -1,0 +1,105 @@
+/*----- Navigation -----*/
+
+/* Global */
+nav {
+	font-family: 'Crete Round', serif;
+	color: #2E73E2;
+}
+
+	nav a {
+		color: #196180;
+	}
+
+ul.navbar-nav {
+	margin-left: 0; /* reset default.css */
+	font-size: 1.125rem;
+	letter-spacing: 1px;
+}
+
+/*-- Top Navbar --*/
+.header--top-navbar {}
+	.header--top-navbar .bg-dark {
+		background-color: #27444F !important;
+		/* important used to override bootstrap important on .bg-dark */
+		background-image: url(../images/cartographer-blue.png);
+		background-repeat: repeat;
+		background-position: center;
+	}
+		.navbar-dark .navbar-brand {
+			color: #196180;
+		}
+
+		.header--top-navbar .navbar-collapse.show {
+			background-image: url(../images/BootstrapAdventure--Fox2.png);
+			background-repeat: no-repeat;
+			background-position: left 1% bottom 35%;
+			padding: 3em;
+		}
+
+.header--top-navbar ul.navbar-nav {
+		list-style: none;
+	}
+
+.header--top-navbar .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+/*-- Navbar (Quick)--*/
+.header--quick-navbar {
+	padding-bottom: 1em;
+}
+    .header--quick-navbar .bg-light {
+    	background-color: transparent !important;
+    		/* important used to override bootstrap important on .bg-light */
+    }
+
+    a.dropdown-toggle {
+    	padding: .5rem;
+    	display: block;
+    }
+
+
+/
+/*----- Media Queries -----*/
+
+/* 1x Small / Small Tablet, Large Phone */
+@media (min-width: 400px) {
+}
+
+/* Small / Small Tablet */
+@media (min-width: 500px) {
+}
+
+/* Mid-Size / Average Tablet */
+@media (min-width: 700px) {
+
+
+	.header--top-navbar ul.navbar-nav {
+		padding-left: 0;
+		margin-bottom: 0;
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+/* Large / Desktop */
+@media (min-width: 900px) {
+	.header--top-navbar .collapse.show {
+		display: flex;
+	}
+}
+
+/* 1x Large / Widescreen Desktop */
+@media (min-width: 1300px) {
+}
+
+/* 2x Large / Widescreen Desktop, TV */
+@media (min-width: 1700px) {
+}
+
+/* Print */
+@media print {
+}
+
+

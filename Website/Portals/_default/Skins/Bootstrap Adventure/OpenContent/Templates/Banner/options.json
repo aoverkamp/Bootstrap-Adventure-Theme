@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "ModuleTitle": {
+      "type": "text"
+    },
+    "Banner_Image": {
+      "type": "image"
+    },
+    "Banner_Text": {
+      "type": "text"
+    }
+  }
+}

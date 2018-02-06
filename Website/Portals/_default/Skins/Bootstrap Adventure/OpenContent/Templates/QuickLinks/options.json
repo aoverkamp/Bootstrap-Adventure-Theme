@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "ModuleTitle": {
+      "type": "text"
+    },
+    "Quick_Links": {
+      "type": "array",
+      "items": {
+        "fields": {
+          "Text": {
+            "type": "text"
+          },
+          "Link": {
+            "type": "url"
+          }
+        }
+      }
+    }
+  }
+}
