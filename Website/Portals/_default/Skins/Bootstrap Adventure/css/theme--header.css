@@ -140,7 +140,7 @@
 	.navbar--utility-items {
 		flex-direction: row;
 		justify-content: space-between;
-		width: 35%;
+		width: 50%;
 	}
 		.user-links {
 			border-left: 1px solid #196180;

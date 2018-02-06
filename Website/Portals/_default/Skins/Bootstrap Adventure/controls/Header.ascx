@@ -14,7 +14,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse" id="navbarsExample01" style="">
-                <dnn:MENU runat="server" MenuStyle="menus/BootstrapNav" />
+                <dnn:MENU runat="server" MenuStyle="menus/RazorNav" />
                 <div class="navbar--utility-items">
                     <div class="user-links">
                         <ul>

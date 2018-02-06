@@ -3,11 +3,12 @@
 /* Global */
 nav {
 	font-family: 'Crete Round', serif;
-	color: #2E73E2;
+	color: #196180;
 }
 
 	nav a {
-		color: #196180;
+		color: #196180 !important;
+		/* override bootstrap selector hell */
 	}
 
 ul.navbar-nav {
@@ -18,6 +19,23 @@ ul.navbar-nav {
 
 /*-- Top Navbar --*/
 .header--top-navbar {}
+	.header--top-navbar .navbar-dark .navbar-brand {
+		color: #CAAF98;
+	}
+
+	.header--top-navbar button:hover,
+	.header--top-navbar button:focus,
+	.header--top-navbar button:active {
+		background-color: #2C4C59;
+		border: none;
+	}
+
+	.header--top-navbar nav a,
+	.header--top-navbar nav .menu-link {
+		color: #CAAF98 !important;
+		/* override bootstrap selector hell */
+	}
+
 	.header--top-navbar .bg-dark {
 		background-color: #27444F !important;
 		/* important used to override bootstrap important on .bg-dark */
@@ -29,6 +47,11 @@ ul.navbar-nav {
 			color: #196180;
 		}
 
+		.header--top-navbar .collapse {
+			justify-content: space-between;
+			align-items: flex-start;
+		}
+
 		.header--top-navbar .navbar-collapse.show {
 			background-image: url(../images/BootstrapAdventure--Fox2.png);
 			background-repeat: no-repeat;
@@ -36,14 +59,20 @@ ul.navbar-nav {
 			padding: 3em;
 		}
 
-.header--top-navbar ul.navbar-nav {
-		list-style: none;
+.header--top-navbar .nav--menu {
+	list-style: none;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+}
+	.header--top-navbar .nav--menu li {
+	    padding-right: .5rem;
+	    padding-left: .5rem;
 	}
 
-.header--top-navbar .navbar-nav .nav-link {
-    padding-right: .5rem;
-    padding-left: .5rem;
-}
+	.header--top-navbar .menu__submenu {
+		flex-direction: column;
+	}
 
 /*-- Navbar (Quick)--*/
 .header--quick-navbar {
