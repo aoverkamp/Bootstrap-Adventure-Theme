@@ -88,6 +88,7 @@
 		list-style: none;
 		display: flex;
 		text-align: center;
+		justify-content: center;
 	}
 
 		.user-links li {
@@ -141,11 +142,14 @@
 	.header--top-navbar,
 	.navbar--utility-items {
 		flex-direction: row;
+		justify-content: space-between;	
 	}
 }
 
 /* Large / Desktop */
 @media (min-width: 900px) {
+	
+	
 	.user-links {
 		border: none;
 	}
@@ -153,10 +157,7 @@
 
 /* 1x Large / Widescreen Desktop */
 @media (min-width: 1300px) {
-	.navbar--utility-items {
-		flex-direction: row;
-		justify-content: space-between;	
-	}
+	
 }
 
 /* 2x Large / Widescreen Desktop, TV */

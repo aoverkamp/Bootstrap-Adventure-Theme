@@ -29,11 +29,11 @@
     <div class="header--quick-navbar">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-3 logo d-flex align-items-center">
+                <div class="col-12 col-md-3 logo d-flex align-items-center justify-content-center">
                     <dnn:Logo runat="server" />
                 </div>
-                <div class="col-12 col-md-9 d-flex align-items-center justify-content-end">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+                <div class="col-12 col-md-9 nav-wrap d-flex align-items-center justify-content-center">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>

@@ -3,8 +3,6 @@
 	margin-top: 2em;
 	padding: 2em 2em 2.5em;
 	background-color: #061115;
-
-	/* image-source | height | width | repeat */
 	border: 1.5em solid;
 	border-image: url(../images/cartographer-blue.png) 30 30 repeat;
 	border-bottom-width: 2.5em;

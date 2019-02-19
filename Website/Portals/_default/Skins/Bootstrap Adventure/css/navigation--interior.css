@@ -7,8 +7,13 @@
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 3em;
 }
+
 .breadcrumb span span {
 	padding: 0 0.25em;
+}
+
+.breadcrumb .SkinObject {
+	font-family: 'lora', serif;
 }
 
 /* Interior Nav */
@@ -17,8 +22,6 @@
 	padding: 2em;
 	font-size: 0.813em;
 	margin-bottom: 3em;
-	
-	color:;
 }
 
 	.interior--nav h2 {

@@ -3,6 +3,11 @@
 	margin-bottom: 5em;
 }
 
+.module-container.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 /* Border Title Containers */
 .module-container__border .module-container--heading {
 	overflow: hidden;

@@ -1,7 +1,5 @@
 /*----- Theme Main -----*/
-.site--main {
-
-}
+.site--main {}
 
 .pane {}
 
@@ -36,13 +34,13 @@
 }
 
 .bootstrap-adventure__home .pane__promo {
-	background-image: url(http://summit2018.local/portals/0/Home%20Banners/stefan-kunze-90443.jpg);
+	background-image: url(../images/fox-background1.png);
 }
 
 .bootstrap-adventure__landing .pane__promo {
-	background-image: url(http://summit2018.local/portals/0/Home%20Banners/cole-patrick-53184.jpg);
+	background-image: url(../images/fox-background2.png);
 }
 
 .bootstrap-adventure__detail .pane__promo {
-	background-image: url(http://summit2018.local/portals/0/Home%20Banners/jake-ingle-140410.jpg);
+	background-image: url(../images/fox-background3.png);
 }
