@@ -2,13 +2,19 @@
 
 /* Global */
 nav {
-	font-family: 'Crete Round', serif;
+	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #196180;
+	font-weight: 300;
 }
 
 	nav a {
 		color: #196180 !important;
 		/* override bootstrap selector hell */
+	}
+
+	.navbar-expand-lg .navbar-nav a,
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding: 0.5rem 2rem;
 	}
 
 ul.navbar-nav {
@@ -19,7 +25,7 @@ ul.navbar-nav {
 
 /*-- Navbar (Quick)--*/
 .header--quick-navbar {
-	padding-bottom: 1em;
+	padding: 3.5em 0 1.5em;
 	text-align: center;
 }
     .header--quick-navbar .bg-light {
@@ -35,39 +41,3 @@ ul.navbar-nav {
     .navbar-toggler {
     	margin: 0 auto;
     }
-
-
-/
-/*----- Media Queries -----*/
-
-/* 1x Small / Small Tablet, Large Phone */
-@media (min-width: 400px) {
-}
-
-/* Small / Small Tablet */
-@media (min-width: 500px) {
-}
-
-/* Mid-Size / Average Tablet */
-@media (min-width: 700px) {
-
-}
-
-/* Large / Desktop */
-@media (min-width: 900px) {
-
-}
-
-/* 1x Large / Widescreen Desktop */
-@media (min-width: 1300px) {
-}
-
-/* 2x Large / Widescreen Desktop, TV */
-@media (min-width: 1700px) {
-}
-
-/* Print */
-@media print {
-}
-
-

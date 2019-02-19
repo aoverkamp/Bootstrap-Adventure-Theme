@@ -7,7 +7,7 @@
 
 .pane__banner {
 	background-color: #fff;
-	background-image: linear-gradient(#fff 60%, rgba(202,175,152,0.25));
+	/*background-image: linear-gradient(#fff 60%, rgba(216, 216, 216, 0.25));*/
 }
 	.pane__banner img {
 		width: 100%;

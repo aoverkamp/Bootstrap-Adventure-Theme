@@ -8,8 +8,9 @@
 <dnn:META runat="server" Name="viewport" Content="width=device-width,initial-scale=1" />
 
 <%-- Fonts & Icons --%>
-<dnn:DnnCssInclude runat="server" FilePath="https://fonts.googleapis.com/css?family=Crete+Round|Open+Sans" />
-<%--<dnn:DnnCssInclude runat="server" FilePath="https://fonts.googleapis.com/icon?family=Material+Icons" />--%>
+<dnn:DnnCssInclude runat="server" FilePath="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" />
+
+<dnn:DnnCssInclude runat="server" FilePath="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
 <%-- Libraries --%>
 <dnn:jQuery runat="server" />
@@ -17,9 +18,9 @@
 <dnn:JavaScriptLibraryInclude runat="server" Name="respond-minmax" Version="1.4.2" SpecificVersion="LatestMajor" />
 
 <%-- Bootstrap4 --%>
-<dnn:DnnCssInclude runat="server" FilePath="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" Priority="<%#FileOrder.Css.DefaultCss + 1%>" />
-<dnn:DnnJsInclude runat="server" FilePath="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ForceProvider="DnnFormBottomProvider"  />
-<dnn:DnnJsInclude runat="server" FilePath="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ForceProvider="DnnFormBottomProvider" />
+<dnn:DnnCssInclude runat="server" FilePath="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" Priority="<%#FileOrder.Css.DefaultCss + 1%>" />
+<dnn:DnnJsInclude runat="server" FilePath="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.5/umd/popper.min.js" ForceProvider="DnnFormBottomProvider"  />
+<dnn:DnnJsInclude runat="server" FilePath="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ForceProvider="DnnFormBottomProvider" />
 
 <%-- Custom Scripts --%>
 <%--<dnn:DnnJsInclude runat="server" FilePath="js/theme.min.js" PathNameAlias="SkinPath" ForceProvider="DnnFormBottomProvider" />--%>

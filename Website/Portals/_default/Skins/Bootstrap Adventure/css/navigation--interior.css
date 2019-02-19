@@ -13,11 +13,11 @@
 
 /* Interior Nav */
 .interior--nav {
-	background-color: rgba(204,177,154,0.5);
+	background-color: #eee;
 	padding: 2em;
 	font-size: 0.813em;
 	margin-bottom: 3em;
-	text-align: center;
+	
 	color:;
 }
 
@@ -33,21 +33,28 @@
 
 	}
 		.interior--nav li {
-			border-bottom: 1px solid rgba(204,177,154,0.9);
+			border-bottom: 1px solid #b3620b;
 		}
 
 		.interior--nav li:first-of-type {
-			border-top: 1px solid rgba(204,177,154,0.9);
+			border-top: 1px solid #b3620b;
 		}
 
 		nav.interior--nav a {
 			padding: 0.75em 1em;
 			display: block;
-			color: #7F5A3A !important;
+			color: #b3620b !important;
 		}
 		nav.interior--nav a:hover {
 			color: #fff !important;
-			background-color: rgba(127,90,58,0.75);
+			background-color: #b3620b;
 			text-decoration: none;
 			transition: background-color 1s linear;
+		}
+
+		.interior--nav ul ul a {
+			padding-left: 2em;
+		}
+		.interior--nav ul ul li:last-of-type {
+			border-bottom: 0;
 		}

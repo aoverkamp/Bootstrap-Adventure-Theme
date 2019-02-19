@@ -17,7 +17,6 @@
             <div class="row">
                 <div class="col-md-3">
                     <nav class="interior--nav">
-                        <h2>Quick Links</h2>
                         <dnn:MENU runat="server" MenuStyle="menus/RazorNav" NodeSelector="RootChildren" />
                     </nav>
                     <div runat="server" id="Sidebar" class="pane pane__sidebar"></div>

@@ -1,36 +1,34 @@
-/*--- colors ---*/
-/*
-#196180 rgba(25,97,128,1) - dark blue
-#2E73E2 rgba(46,115,226,226) - blue
-#47D96C rgba(71,217,108) - green
-#4E4E4E rgba(78,78,78) - slate
-#CAAF98 rgba(202,175,152) - khaki
-*/
-
 /*----- Base Level Styles -----*/
 body {
-	font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-color: rgba(202,175,152,0.25);
+	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*background-color: rgba(216, 216, 216, 0.25);*/
+	background-color: #fff;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #555;
 }
 
+p,
 .Normal,
 .NormalBold,
 .NormalDisabled,
 .NormalTextBox,
 .NormalRed,
 .SkinObject {
-    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+	color: #555;
 }
 
-p {}
-
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Crete Round', serif;
+	font-family: 'Lora', serif;
 }
 
 a, a:link {
 	color: #196180;
 }
+
 .svg-icon {
     width: 2em;
     height: 2em;

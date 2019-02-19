@@ -6,16 +6,17 @@
 }
 
 .header--top-navbar {
-	padding: 0.5em 2em;
+	/*padding: 0.5em 2em;*/
 	text-align: center;
-	background-color: #27444F;
-	background-image: url(../images/cartographer-blue.png);
+	background-color: #fcfcfc;
+	/*background-image: url(../images/cartographer-blue.png);
 	background-repeat: repeat;
-	background-position: center;
+	background-position: center;*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
+	border-bottom: 1px solid #eee;
 }
 
 	.header--top-navbar .navbar-brand {
@@ -59,13 +60,13 @@
 
 .header--search__top {}
 	.header--search__top input {
-		background-color: #2C4C59;
-		border-color: #253F4A;
+		background-color: #eee;
+		border-color: #eee;
 		padding: 0.45em;
-		color: #fff;
+		color: #4E4E4E;
 	}
 	.header--search__top a {
-		background-color: #CAAF98;
+		background-color: #ccc;
 		border-radius: 0.25em;
 		margin-left: 0.25em;
 	}
@@ -78,8 +79,8 @@
 }
 	.user-links {
 		padding: 0 .75em;
-		border-top: 1px solid #196180;
-		border-bottom: 1px solid #196180;
+		border-top: 1px solid #eee;
+		border-bottom: 1px solid #eee;
 	}
 
 	.user-links ul {
@@ -91,54 +92,38 @@
 
 		.user-links li {
 			padding: 0.5em 0.25em;
+			display: flex;
+			align-items: center;
 		}
+			.user-links i {
+				color: #b3620b;
+				opacity: 0.5;
+			}
 			.user-links li a,
 			.user-links li a.SkinObject {
-				display: block;
+				display: inline-block;
 				padding: 0.5em 1em;
-				color: #CAAF98;
+				color: #196180;
 				font-size: 0.813em;
 				opacity: 0.5;
 			}
 
 				.user-links li a::visited,
 				.user-links li a.SkinObject::visited {
-					color: #CAAF98;
+					color: #196180;
 				}
 
-				.user-links li a::hover,
-				.user-links li a.SkinObject::hover {
+				.user-links li a:hover,
+				.user-links li a.SkinObject:hover {
 					opacity: 1;
 				}
 
-			.user-links li a::before {
-				content: "";
-				display: inline-block;
-				height: 24px;
-				width: 24px;
-				background-position: left center;
-				background-repeat: no-repeat;
-				margin-bottom: -8px;
-				margin-right: 5px;
-			}
-			.user-links .user-links--login a::before {
-				background-image: url(../icons/ic_vpn_key_black_24px.svg);
-			}
-			.user-links .user-links--user a::before {
-				background-image: url(../icons/ic_person_black_24px.svg);
-			}
+
 
 /*-- Logo --*/
-.header--brand {
-	text-align: center;
-	padding: 1em 0 2em;
+.logo img {
+	width: 100%;
 }
-	.header--brand a {
-		display: block;
-	}
-		.header--brand img {}
-
-
 
 
 /*----- Media Queries -----*/
@@ -170,14 +155,8 @@
 @media (min-width: 1300px) {
 	.navbar--utility-items {
 		flex-direction: row;
-		justify-content: space-between;
-		width: 40%;
+		justify-content: space-between;	
 	}
-		.user-links {
-			border-left: 1px solid #196180;
-			border-right: 1px solid #196180;
-		}
-
 }
 
 /* 2x Large / Widescreen Desktop, TV */
