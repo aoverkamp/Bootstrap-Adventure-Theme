@@ -23,6 +23,10 @@
 			}
 		}
 
+	.pane__banner .module-container {
+		margin-bottom: 2em;
+	}
+
 .pane__promo {
 	padding: 2em;
 	margin-bottom: 2em;
