@@ -21,11 +21,6 @@
             
         </div>
     </div>
-    <div class="header--brand">
-        <div class="container">
-            
-        </div>
-    </div>
     <div class="header--quick-navbar">
         <div class="container">
             <div class="row">
@@ -37,10 +32,8 @@
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-
                         <div class="collapse navbar-collapse" id="navbarsExample09">
                             <dnn:MENU runat="server" MenuStyle="menus/BootstrapNav" />
-                            
                         </div>
                     </nav>
                 </div>
