@@ -50,8 +50,7 @@
 }
 
 
-/* Grid Stuff Exercise */
-
+/*----- Flex-Grid Exercise -----*/
 .row__grid {
 	border-left: 0.25em solid #fff;
 	border-right: 0.25em solid #fff;
@@ -61,7 +60,7 @@
 .row__grid .pane {
 	min-height: 300px;
 	color: #fff;
-	border: 0.25em solid #fff;
+	border: 0.5em solid #fff;
 	padding: 0;
 }
 
@@ -80,20 +79,26 @@
 }
     .row__grid-1 .pane__three-col-1 { 
     	background-color: #577986;
+    	background-image: url(../images/fox-background1.png);
+    	background-size: cover;
+		background-position: center center;
     }
     .row__grid-1 .pane__three-col-2 { 
     	background-color: #C3660B;
     }
     	.row__grid-1 .pane__three-col-2 .DnnModule:first-of-type {
-    		border-bottom: 0.5em solid #fff;
+    		border-bottom: 1em solid #fff;
     	}
 
     .row__grid-1 .pane__three-col-3 { 
     	background-color: #284853;
+    	background-image: url(../images/fox-background2.png);
+    	background-size: cover;
+		background-position: center center;
     }
 
 .row__grid-2 {
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 	.row__grid-2 .pane {}
     .row__grid-2 .pane__three-col-1 { 
@@ -101,6 +106,9 @@
 	}
     .row__grid-2 .pane__three-col-2 { 
     	background-color: #284853;
+    	background-image: url(../images/fox-background3.png);
+    	background-size: cover;
+		background-position: center center;
 	}
     .row__grid-2 .pane__three-col-3 { 
     	background-color: #577986;
