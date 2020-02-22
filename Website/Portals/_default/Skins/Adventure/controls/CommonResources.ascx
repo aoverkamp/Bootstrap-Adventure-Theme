@@ -8,7 +8,7 @@
 <dnn:META runat="server" Name="viewport" Content="width=device-width,initial-scale=1" />
 
 <%-- Fonts & Icons --%>
-<dnn:DnnCssInclude runat="server" FilePath="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" />
+<dnn:DnnCssInclude runat="server" FilePath="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Noto+Serif:400,400i,700,700i&display=swap" />
 
 <dnn:DnnCssInclude runat="server" FilePath="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
