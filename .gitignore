@@ -441,3 +441,8 @@ Desktop.ini
 .DS_Store
 /Website/Portals/_default/Users/
 /Website/DesktopModules/Connectors/
+/Website/Portals/_default/Containers/AO-2020
+/Website/DesktopModules/Connect.Dnn.Koi
+/Website/Portals/_default/Skins/AO-2020
+/Website/Portals/_default/Skins/Dashboard
+/Website/Portals/_default/Skins/Adventure/koi.json
