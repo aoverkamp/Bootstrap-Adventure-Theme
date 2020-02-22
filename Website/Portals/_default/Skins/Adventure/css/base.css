@@ -35,6 +35,11 @@ a, a:link {
     fill: #CAAF98;
 }
 
+/*----- Bootstrap Overrides -----*/
+.container {
+	max-width: 1260px;
+	/* increase max-width from 1140px */
+}
 
 /*----- Media Queries -----*/
 
