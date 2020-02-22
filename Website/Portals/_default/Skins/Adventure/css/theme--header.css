@@ -128,12 +128,17 @@
 
 
 /*--- Alternate Header ---*/
-
 .bootstrap-adventure__grid .header--quick-navbar {
 	border-top: 0.75em solid;
 	border-image: url(../images/cartographer-taupe-light.png) 30 30 repeat;
 	padding: 1em 0;
 }
+
+.bootstrap-adventure__grid .site--header .container {
+	max-width: 97%;
+}
+
+.bootstrap-adventure__grid .nav-wrap {}
 
 
 /*----- Media Queries -----*/
@@ -153,12 +158,14 @@
 		flex-direction: row;
 		justify-content: space-between;	
 	}
+	.bootstrap-adventure .nav-wrap {
+		justify-content: flex-end !important;
+		/* important needed to override bootstrap class*/ 
+	}
 }
 
 /* Large / Desktop */
 @media (min-width: 900px) {
-	
-	
 	.user-links {
 		border: none;
 	}
