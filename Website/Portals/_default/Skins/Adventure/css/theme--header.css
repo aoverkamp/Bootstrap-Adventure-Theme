@@ -127,6 +127,15 @@
 }
 
 
+/*--- Alternate Header ---*/
+
+.bootstrap-adventure__grid .header--quick-navbar {
+	border-top: 0.75em solid;
+	border-image: url(../images/cartographer-taupe-light.png) 30 30 repeat;
+	padding: 1em 0;
+}
+
+
 /*----- Media Queries -----*/
 
 /* 1x Small / Small Tablet, Large Phone */

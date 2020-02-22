@@ -6,8 +6,6 @@
 	border: 1.5em solid;
 	border-image: url(../images/cartographer-blue.png) 30 30 repeat;
 	border-bottom-width: 2.5em;
-
-
 }
 
 	.site--footer .container {
@@ -32,4 +30,9 @@
 
 .site--footer li {
 	padding-bottom: 0.75em;
+}
+
+.bootstrap-adventure__grid .site--footer {
+	margin-top: 0;
+	border-image: url(../images/cartographer-taupe.png) 30 30 repeat;
 }

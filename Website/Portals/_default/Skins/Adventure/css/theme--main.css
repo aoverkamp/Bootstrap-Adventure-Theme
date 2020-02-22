@@ -48,3 +48,61 @@
 .bootstrap-adventure__detail .pane__promo {
 	background-image: url(../images/fox-background3.png);
 }
+
+
+/* Grid Stuff Exercise */
+
+.row__grid {
+	border-left: 0.25em solid #fff;
+	border-right: 0.25em solid #fff;
+	margin: 0 1em;
+}
+
+.row__grid .pane {
+	min-height: 300px;
+	color: #fff;
+	border: 0.25em solid #fff;
+	padding: 0;
+}
+
+.row__grid .module-container {
+	margin: 0;
+	padding: 1em;
+}
+
+.row__grid p,
+.row__grid h2 {
+	color: #fff;
+}
+
+.row__grid-1 {
+	margin-top: 1em;
+}
+    .row__grid-1 .pane__three-col-1 { 
+    	background-color: #577986;
+    }
+    .row__grid-1 .pane__three-col-2 { 
+    	background-color: #C3660B;
+    }
+    	.row__grid-1 .pane__three-col-2 .DnnModule:first-of-type {
+    		border-bottom: 0.5em solid #fff;
+    	}
+
+    .row__grid-1 .pane__three-col-3 { 
+    	background-color: #284853;
+    }
+
+.row__grid-2 {
+	margin-bottom: 1em;
+}
+	.row__grid-2 .pane {}
+    .row__grid-2 .pane__three-col-1 { 
+    	background-color: #C3660B;
+	}
+    .row__grid-2 .pane__three-col-2 { 
+    	background-color: #284853;
+	}
+    .row__grid-2 .pane__three-col-3 { 
+    	background-color: #577986;
+    }	
+       
