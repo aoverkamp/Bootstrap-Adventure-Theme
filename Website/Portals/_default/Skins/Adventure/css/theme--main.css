@@ -27,6 +27,14 @@
 		margin-bottom: 2em;
 	}
 
+.pane__promo-full {
+	padding: 2em;
+	margin-bottom: 4em;
+	background-color: #eee;
+	border-top: 3px solid rgba(0,0,0,0.05);
+	border-bottom: 3px solid rgba(0,0,0,0.05);
+}
+
 .pane__promo {
 	padding: 2em;
 	margin-bottom: 2em;

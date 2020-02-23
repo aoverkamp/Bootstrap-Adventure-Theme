@@ -11,6 +11,9 @@
         <div runat="server" id="Banner" class="pane pane__banner"></div>
         <div class="container">
             <div runat="server" id="PromoTop" class="pane pane__promo-top"></div>
+        </div>
+        <div runat="server" id="PromoFull" class="pane pane__promo-full"></div>
+        <div class="container">
             <div class="row">
                 <div runat="server" id="TwoCol1" class="col-sm pane pane__two-col-1"></div>
                 <div runat="server" id="TwoCol2" class="col-sm pane pane__two-col-2"></div>
