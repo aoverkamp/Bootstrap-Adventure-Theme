@@ -128,17 +128,15 @@
 
 
 /*--- Alternate Header ---*/
-.bootstrap-adventure__grid .header--quick-navbar {
+.bootstrap-adventure__flexgrid .header--quick-navbar {
 	border-top: 0.75em solid;
 	border-image: url(../images/cartographer-taupe-light.png) 30 30 repeat;
 	padding: 1em 0;
 }
 
-.bootstrap-adventure__grid .site--header .container {
+.bootstrap-adventure__flexgrid .site--header .container {
 	max-width: 97%;
 }
-
-.bootstrap-adventure__grid .nav-wrap {}
 
 
 /*----- Media Queries -----*/

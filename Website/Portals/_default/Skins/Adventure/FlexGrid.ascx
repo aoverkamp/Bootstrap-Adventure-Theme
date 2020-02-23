@@ -5,7 +5,7 @@
 
 <bootstrapAdventure:CommonResources runat="server" />
 
-<div class="bootstrap-adventure bootstrap-adventure__grid">
+<div class="bootstrap-adventure bootstrap-adventure__flexgrid">
     <bootstrapAdventure:HeaderAlt runat="server" />
     <main role="main" class="site--main">
         <div runat="server" id="Banner" class="pane pane__banner"></div>
