@@ -8,8 +8,16 @@ nav {
 }
 
 	nav a {
-		color: #196180 !important;
-		/* override bootstrap selector hell */
+		color: #196180 !important; /* override bootstrap selector hell */
+		font-weight: 500;
+	}
+	nav .dropdown-menu {
+		text-align: center;
+		min-width: 13em; /* override default bootstrap */
+	}
+
+	nav .subLevel a {
+		font-weight: 300;
 	}
 
 	.navbar-expand-lg .navbar-nav a,
@@ -29,8 +37,7 @@ ul.navbar-nav {
 	text-align: center;
 }
     .header--quick-navbar .bg-light {
-    	background-color: transparent !important;
-    		/* important used to override bootstrap important on .bg-light */
+    	background-color: transparent !important; /* important used to override bootstrap important on .bg-light */
     }
 
     a.dropdown-toggle {

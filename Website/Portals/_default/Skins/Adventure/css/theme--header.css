@@ -3,20 +3,21 @@
 
 .site--header {
 	background-color: #fff;
+	box-shadow: 0 0 6px -1px #000;
 }
 
 .header--top-navbar {
 	/*padding: 0.5em 2em;*/
 	text-align: center;
-	background-color: #fcfcfc;
-	/*background-image: url(../images/cartographer-blue.png);
+	background-color: #284853;
+	background-image: url(../images/cartographer-blue.png);
 	background-repeat: repeat;
-	background-position: center;*/
+	background-position: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #df790b;
 }
 
 	.header--top-navbar .navbar-brand {
@@ -60,10 +61,11 @@
 
 .header--search__top {}
 	.header--search__top input {
-		background-color: #eee;
-		border-color: #eee;
+		background-color: #576D74;
+		border-color: #142a32;
+		border-width: 2px;
 		padding: 0.45em;
-		color: #4E4E4E;
+		color: #f9f9f9;
 	}
 	.header--search__top a {
 		background-color: #ccc;
@@ -79,8 +81,8 @@
 }
 	.user-links {
 		padding: 0 .75em;
-		border-top: 1px solid #eee;
-		border-bottom: 1px solid #eee;
+		/*border-top: 1px solid #eee;
+		border-bottom: 1px solid #eee;*/
 	}
 
 	.user-links ul {
@@ -97,26 +99,28 @@
 			align-items: center;
 		}
 			.user-links i {
-				color: #b3620b;
+				color: #fff;
 				opacity: 0.5;
 			}
 			.user-links li a,
 			.user-links li a.SkinObject {
 				display: inline-block;
 				padding: 0.5em 1em;
-				color: #196180;
+				color: #f9f9f9;
 				font-size: 0.813em;
 				opacity: 0.5;
+				font-weight: 400;
 			}
 
 				.user-links li a::visited,
 				.user-links li a.SkinObject::visited {
-					color: #196180;
+					color: #f9f9f9;
 				}
 
 				.user-links li a:hover,
 				.user-links li a.SkinObject:hover {
 					opacity: 1;
+					text-decoration: none;
 				}
 
 
