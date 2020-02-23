@@ -92,7 +92,7 @@
 		background-position: center center;
     }
     .row__grid-1 .pane__three-col-2 { 
-    	background-color: #C3660B;
+    	background-color: #f3756d;
     }
     	.row__grid-1 .pane__three-col-2 .DnnModule:first-of-type {
     		border-bottom: 1em solid #fff;
@@ -110,7 +110,7 @@
 }
 	.row__grid-2 .pane {}
     .row__grid-2 .pane__three-col-1 { 
-    	background-color: #C3660B;
+    	background-color: #f3756d;
 	}
     .row__grid-2 .pane__three-col-2 { 
     	background-color: #284853;

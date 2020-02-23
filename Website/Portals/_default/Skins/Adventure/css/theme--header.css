@@ -17,7 +17,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	border-bottom: 1px solid #df790b;
+	border-bottom: 0.25em solid #f3756d;
 }
 
 	.header--top-navbar .navbar-brand {
