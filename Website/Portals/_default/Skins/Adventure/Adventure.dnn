@@ -1,5 +1,5 @@
 ﻿<dotnetnuke type="Package" version="5.0">
-  <packages><package name="Adventure" type="Skin" version="0.1.0">
+  <packages><package name="Adventure" type="Skin" version="1.0.0">
   <friendlyName>Adventure</friendlyName>
   <description>Adventure demo theme from DNN Summit 2019</description>
   <iconFile>/Images/icon_skin.gif</iconFile>
