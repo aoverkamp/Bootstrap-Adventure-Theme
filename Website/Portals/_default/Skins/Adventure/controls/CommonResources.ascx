@@ -17,10 +17,10 @@
 <dnn:JavaScriptLibraryInclude runat="server" Name="html5shiv" Version="3.7.3" SpecificVersion="LatestMajor" />
 <dnn:JavaScriptLibraryInclude runat="server" Name="respond-minmax" Version="1.4.2" SpecificVersion="LatestMajor" />
 
-<%-- Bootstrap4 --%>
+<%-- Bootstrap --%>
 <dnn:DnnCssInclude runat="server" FilePath="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" Priority="<%#FileOrder.Css.DefaultCss + 1%>" />
-<dnn:DnnJsInclude runat="server" FilePath="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.5/umd/popper.min.js" ForceProvider="DnnFormBottomProvider"  />
-<dnn:DnnJsInclude runat="server" FilePath="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ForceProvider="DnnFormBottomProvider" />
+<dnn:DnnJsInclude runat="server" FilePath="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ForceProvider="DnnFormBottomProvider"  />
+<dnn:DnnJsInclude runat="server" FilePath="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ForceProvider="DnnFormBottomProvider" />
 
 <%-- Custom Scripts --%>
 <%--<dnn:DnnJsInclude runat="server" FilePath="js/theme.min.js" PathNameAlias="SkinPath" ForceProvider="DnnFormBottomProvider" />--%>
