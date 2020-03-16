@@ -54,7 +54,7 @@
     "less-plugin-util": "^0.2.0",
     "lodash": "^4.17.1",
     "merge-stream": "^1.0.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "postcss-pseudoelements": "^5.0.0",
     "postcss-reporter": "^5.0.0",
     "prettier": "^1.7.4",
