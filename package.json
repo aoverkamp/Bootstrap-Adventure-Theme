@@ -52,7 +52,7 @@
     "less-plugin-cubehelix": "^0.0.1",
     "less-plugin-lists": "^1.1.1",
     "less-plugin-util": "^0.2.0",
-    "lodash": "^4.17.1",
+    "lodash": "^4.17.19",
     "merge-stream": "^1.0.0",
     "minimist": "^1.2.0",
     "postcss-pseudoelements": "^5.0.0",
